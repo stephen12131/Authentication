@@ -140,8 +140,7 @@
 							<outputDirectory>${basedir}/src/main/resources/static</outputDirectory>
 							<resources>
 								<resource>
-									<directory>frontend/dist/frontend</directory>
-									<!--<excludes> <exclude>index.html</exclude> </excludes> -->
+									<directory>frontend/dist/frontend</directory>									
 								</resource>
 							</resources>
 						</configuration>
@@ -156,8 +155,7 @@
 							<outputDirectory>${basedir}/target/classes/static</outputDirectory>
 							<resources>
 								<resource>
-									<directory>frontend/dist/frontend</directory>
-									<!--<excludes> <exclude>index.html</exclude> </excludes> -->
+									<directory>frontend/dist/frontend</directory>									
 								</resource>
 							</resources>
 						</configuration>
